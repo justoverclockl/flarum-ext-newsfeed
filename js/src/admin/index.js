@@ -1,5 +1,5 @@
 /*
- * This file is part of justoverclock/flarum-ext-guestengagement.
+ * This file is part of justoverclock/flarum-ext-newsfeed.
  *
  * Copyright (c) 2021 Marco Colia.
  * https://flarum.it
