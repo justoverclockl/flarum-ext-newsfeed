@@ -27,7 +27,7 @@ extend(IndexPage.prototype, 'oncreate', function () {
     limit: 5,
     ssl: true,
     layoutTemplate: "<div class='feed-container'>{entries}</div>",
-    entryTemplate: "<li class='licss'><a class='titleFeed' href=\"{url}\">{title}</a><br/>{shortBodyPlain}... -  <b>{author}</b></li>",
+    entryTemplate: "<li class='licss'><a class='titleFeed' target='_blank' href=\"{url}\">{title}</a><br/>{shortBodyPlain}... -  <b>{author}</b></li>",
   });
   rss.render().then(() => {});
 });
